@@ -79,7 +79,7 @@ Este código utiliza a biblioteca `pandas` para ler dados de um arquivo CSV e ex
   - `pandas` como `pd` para manipulação de dados.
 
 - **Leitura do CSV:**
-  - `pd.read_csv('caminho/para/arquivo.csv')` lê o arquivo CSV e armazena os dados em um DataFrame chamado `df`.
+  - `pd.read_csv('caminho/para/arquivo.csv')` lê o arquivo CSV e armazena os dados em um DataFrame chamado `df` o arquivo que disponibilzei no repo é o ATVD02\GlobalLandTemperaturesByCountry.csv.
 
 - **Exibição:**
   - `df.head()` exibe as primeiras 5 linhas do DataFrame por padrão.
@@ -103,20 +103,20 @@ Este código demonstra como selecionar uma coluna específica de um DataFrame e 
   - `pd.read_csv('caminho/para/arquivo.csv')` lê o arquivo CSV e armazena os dados em `df`.
 
 - **Seleção de Coluna:**
-  - `df['Idade']` seleciona a coluna intitulada `'Idade'`.
+  - `df['AverageTemperature']` seleciona a coluna intitulada avg temp 
+.
 
 - **Filtragem de Linhas:**
-  - `df[df['Idade'] > 30]` filtra as linhas onde o valor na coluna `'Idade'` é maior que 30.
+  - `df[df['AverageTemperature'] > 4]` filtra as linhas onde o valor na coluna `'avgtemp'` é maior que 4.
 
 **Como Usar:**
 
 1. Substitua `'caminho/para/arquivo.csv'` pelo caminho real do seu arquivo CSV.
-2. Execute o script para visualizar a coluna `'Idade'` e as linhas onde `'Idade'` é maior que 30.
 
 **Output Esperado:**
 
-- **Coluna Selecionada:** Exibição de todos os valores na coluna `'Idade'`.
-- **Linhas Filtradas:** Exibição das linhas onde a `'Idade'` é maior que 30.
+- **Coluna Selecionada:** Exibição de todos os valores na coluna `'avgtemp'`.
+- **Linhas Filtradas:** Exibição das linhas onde a `'avgtemp'` é maior que 4.
 
 ### **Atividade 10: Tratar Valores Ausentes (`NaN`) em um DataFrame com Pandas**
 
@@ -167,7 +167,7 @@ Este código demonstra diferentes métodos para lidar com valores ausentes (`NaN
 
 3. **Executar o Script:**
    - Abra o terminal ou prompt de comando.
-   - Navegue até o diretório onde o arquivo `atividades.py` está localizado.
+   - Navegue até o diretório onde o arquivo `R0102030405.py` está localizado.
    - Execute o script:
      ```bash
      python atividades.py
@@ -175,12 +175,10 @@ Este código demonstra diferentes métodos para lidar com valores ausentes (`NaN
 
 4. **Observações:**
    - As atividades que envolvem gráficos (`Atividades 6 e 7`) abrirão janelas de visualização gráfica.
-   - As atividades que envolvem leitura de CSV (`Atividades 8, 9 e 10`) requerem que você substitua `'caminho/para/arquivo.csv'` pelo caminho real do seu arquivo CSV.
+   - As atividades que envolvem leitura de CSV (`Atividades 8, 9`) requerem que você substitua `'caminho/para/arquivo.csv'` pelo caminho real do seu arquivo CSV.
 
 ## **Conclusão**
 
-Este projeto abrange uma variedade de conceitos fundamentais em Python, desde manipulação básica de listas até visualização e análise de dados mais avançadas com `matplotlib` e `pandas`. Sinta-se à vontade para explorar e modificar os códigos conforme necessário para aprofundar seu entendimento.
-
-Se tiver dúvidas ou precisar de mais explicações, não hesite em procurar recursos adicionais ou perguntar a colegas e instrutores.
+Este projeto abrange uma variedade de conceitos fundamentais em Python, desde manipulação básica de listas até visualização e análise de dados mais avançadas com `matplotlib` e `pandas`.
 
 ---
