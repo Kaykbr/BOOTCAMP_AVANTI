@@ -59,13 +59,13 @@ Este projeto é uma aplicação de classificação de imagens desenvolvida como 
 - Desenvolvimento de uma interface de usuário intuitiva.
 
 ## Imagens do Projeto
-![Intro](assets/intro.jpeg)
-![Pré-processamento01](assets/preprocessaemnto01.jpeg)
-![Pré-processamento02](assets/preprocessamento02.jpeg)
-![Segmentacao01](assets/segmentacao01.jpeg)
-![Segmentacao02](assets/segmentacao02.jpeg)
-![Classificação01](assets/classificacao01.jpeg)
-![Classificação02](assets/classificacao02.jpeg)
+![Intro](../assets/intro.jpeg)
+![Pré-processamento01](../assets/preprocessaemnto01.jpeg)
+![Pré-processamento02](../assets/preprocessamento02.jpeg)
+![Segmentacao01](../assets/segmentacao01.jpeg)
+![Segmentacao02](../assets/segmentacao02.jpeg)
+![Classificação01](../assets/classificacao01.jpeg)
+![Classificação02](../assets/classificacao02.jpeg)
 
 ## Conclusão
 Este projeto proporcionou uma experiência prática no desenvolvimento de uma aplicação completa de machine learning, desde o pré-processamento de dados até a classificação de imagens. As dificuldades enfrentadas contribuíram para um aprendizado significativo na área de visão computacional e desenvolvimento de aplicações interativas.
